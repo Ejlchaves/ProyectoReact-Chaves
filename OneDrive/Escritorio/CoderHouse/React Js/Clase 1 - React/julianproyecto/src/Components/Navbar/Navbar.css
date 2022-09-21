@@ -1,0 +1,40 @@
+.navContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+.logoContainer{
+    justify-self: left;
+}
+
+.logo {
+    font-size: 2.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.btnContainer {
+    display: flex;
+    justify-content: left;
+    width: 40%;
+    gap: 15px
+    ;
+    
+}
+
+.btnContainer button {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    width: 100px;
+    /* border-left: 10px; */
+}
+
+.btnContainer button:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
