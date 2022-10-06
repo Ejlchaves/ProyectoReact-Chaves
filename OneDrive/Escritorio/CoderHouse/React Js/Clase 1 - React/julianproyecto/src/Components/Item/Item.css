@@ -1,0 +1,46 @@
+.cardProducto{
+    background-color:whitesmoke;
+    padding: 5px;
+    border: solid 2px black;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.btnCard {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+}
+
+.btnCard:hover{
+    background-color: white;
+    color: black;
+}
+
+.vistaPreviaContainer{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: solid 2px black;
+    margin: 30px;
+    padding: 5px;
+    background-color: whitesmoke;
+    width: 800px;
+}
+
+.imgVistaPrevia{
+    width: 25rem;
+    height: 30rem;
+}
+
+.detalleVistaPrevia {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}

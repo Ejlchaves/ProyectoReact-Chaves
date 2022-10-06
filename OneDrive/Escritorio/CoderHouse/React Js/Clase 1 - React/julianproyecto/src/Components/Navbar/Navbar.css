@@ -6,10 +6,13 @@
 }
 
 .logoContainer{
+    text-decoration: none;
     justify-self: left;
 }
 
 .logo {
+    color: black;
+    text-decoration: none;
     font-size: 2.5rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
@@ -23,12 +26,15 @@
     
 }
 
-.btnContainer button {
+.btn {
     background-color: black;
     color: white;
+    text-decoration: none;
     border-radius: 10px;
     padding: 5px;
     text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
     width: 100px;
     /* border-left: 10px; */
 }

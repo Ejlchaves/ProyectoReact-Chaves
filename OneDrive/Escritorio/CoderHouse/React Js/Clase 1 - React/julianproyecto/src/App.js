@@ -1,17 +1,24 @@
-/* import logo from './logo.svg'; */
+/* import React, {useState} from 'react'; */
 import './App.css';
 import Navbar from './Components/Navbar/Navbar'
 import ItemListContainer from './Components/ItemListContainer/ItemListContainer'
+/* import Counter from './Components/Counter/Counter' */
+import ItemDetailContainer from './Components/ItemDetailContainer/ItemDetailContainer';
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 function App() {
   return (
     <div className="App">
-      <header /* className="App-header" */>
+      <BrowserRouter>
         { <Navbar /> }
-      </header>
-      <main>
-      { <ItemListContainer greeting = 'Bienvenidos'/> }
-      </main>
+        <div className='productContainers'>
+        <Routes>
+        <Route path='/' element = {<ItemListContainer greeting = 'Bienvenidos'/>} />
+        <Route path='/category/:categoriaId' element = {<ItemListContainer greeting = 'Bienvenidos'/>} />
+        <Route path='/detail/:productoId' element = { <ItemDetailContainer /> }/> 
+      </Routes>
+        </div>
+      </BrowserRouter>
     </div>
   );
 }
