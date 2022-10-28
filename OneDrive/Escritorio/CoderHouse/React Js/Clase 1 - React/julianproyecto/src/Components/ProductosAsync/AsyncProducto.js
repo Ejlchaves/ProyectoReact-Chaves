@@ -8,7 +8,7 @@ const productos = [
     precio:1800},
 
     {id:'101H',
-    Tipo:'remera', 
+    tipo:'remera', 
     name:'Remera Basic V', 
     img:'https://topitop.vteximg.com.br/arquivos/ids/168336-302-385/1682518_1.jpg?v=637236810649230000', 
     cant:'10', 
@@ -16,7 +16,7 @@ const productos = [
     precio:1800},
 
     {id:'102H',
-    Tipo:'remera', 
+    tipo:'remera', 
     name:'Sudadera Basic V', 
     img:'https://topitop.vteximg.com.br/arquivos/ids/221861-635-792/1682437_1.jpg?v=637719907679470000', 
     cant:'10', 
@@ -24,7 +24,7 @@ const productos = [
     precio:1800},
 
     {id:'200M',
-    Tipo:'jean', 
+    tipo:'jean', 
     name:'Jean Woman 1', 
     img:'https://static.dafiti.com.ar/p/koxis-8831-835229-1-product.jpg', 
     cant:'10', 
@@ -32,7 +32,7 @@ const productos = [
     precio:4600},
 
     {id:'201M',
-    Tipo:'remera', 
+    tipo:'remera', 
     name:'Top Urban', 
     img:'https://cdn.fashiola.mx/L572041427/highstreet-camiseta-de-manga-corta.jpg', 
     cant:'10', 
@@ -40,7 +40,7 @@ const productos = [
     precio:1800},
 
     {id:'202M',
-    Tipo:'jean', 
+    tipo:'jean', 
     name:'Short Jean', 
     img:'https://img.ltwebstatic.com/images3_pi/2020/03/25/1585105225ea8b0088e5a5c231a9bc25beb273774d_thumbnail_600x.webp', 
     cant:'10', 
@@ -48,7 +48,7 @@ const productos = [
     precio:2500},
 
     {id:'300O',
-    Tipo:'conjunto', 
+    tipo:'conjunto', 
     name:'Outfit Urban X', 
     img:'https://st3.depositphotos.com/3917667/35677/i/450/depositphotos_356775140-stock-photo-trendy-fashionable-couple-isolated-on.jpg', 
     cant:'10', 
@@ -56,7 +56,7 @@ const productos = [
     precio:5700},
 
     {id:'301O',
-    Tipo:'conjunto', 
+    tipo:'conjunto', 
     name:'Outfit Urban Black', 
     img:'https://c8.alamy.com/zoomses/9/da42c05ee37943c1b55bf54fc9667d27/2bwwtbk.jpg', 
     cant:'10', 
@@ -64,7 +64,7 @@ const productos = [
     precio:8700},
 
     {id:'302O',
-    Tipo:'conjunto', 
+    tipo:'conjunto', 
     name:'Outfit Urban Basic', 
     img:'https://us.123rf.com/450wm/dolgachov/dolgachov1911/dolgachov191101210/133617016-retrato-de-pareja-feliz-en-camisetas-blancas.jpg?ver=6', 
     cant:'10', 
@@ -72,7 +72,7 @@ const productos = [
     precio:6300},
 
     {id:'400A',
-    Tipo:'mochila', 
+    tipo:'mochila', 
     name:'Mochila VART', 
     img:'https://cdn.shopify.com/s/files/1/1541/9897/products/21-02-2017_fjallraven_kanken_graphite_23510-031_sh_m1_600x.jpg?v=1570150722', 
     cant:'10', 
@@ -80,7 +80,7 @@ const productos = [
     precio:9300},
 
     {id:'401A',
-    Tipo:'riñonera', 
+    tipo:'riñonera', 
     name:'Riñonera Urban XL', 
     img:'https://d3ugyf2ht6aenh.cloudfront.net/stores/745/457/products/img-20220204-wa01031-1f7bae80373aadf4fa16440126099677-1024-1024.jpg', 
     cant:'10', 

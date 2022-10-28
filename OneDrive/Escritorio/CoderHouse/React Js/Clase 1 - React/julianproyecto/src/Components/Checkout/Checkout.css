@@ -1,0 +1,43 @@
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 65vh;
+    text-align: left;
+    color: black;
+    margin: 20px 250px 20px 250px;
+}
+
+form {
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: solid 2px black;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+form h1{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+form p {
+    font-size: 15px;
+}
+
+.buttonOrder{
+    background-color: rgba(0, 0, 0, 0.815);
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+}
+
+.formInput {
+    border-radius: 10px;
+}

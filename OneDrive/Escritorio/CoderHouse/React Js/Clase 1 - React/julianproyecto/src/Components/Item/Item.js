@@ -1,35 +1,19 @@
 import "../Item/Item.css"
 import { Link } from "react-router-dom"
-import Counter from "../Counter/Counter"
 
 
-export const Item = ({prod}) => {
+const Item = ({id, name, img, precio}) => {
     return (
         <div className='cardProducto'>
-        <img src={prod.img} alt={prod.name} />
-        <h2>{prod.name}</h2>
+        <img src={img} alt={name} />
+        <h2>{name}</h2>
         <h4>Descripcion</h4>
-        <h3>Precio: {prod.precio}</h3>
-         <Link to={`/detail/${prod.id}`} className='btnCard'>
+        <h3>Precio: {precio}</h3>
+         <Link to={`/detail/${id}`} >
           <button className="btnCard">Detalle de producto</button>
         </Link>
         </div>
     )
 }
 
-export const ItemVistaPrevia = ({producto}) => {
-    return(
-        <div className="vistaPreviaContainer">
-            <div>
-                <img className="imgVistaPrevia" src={producto.img} alt={producto.name} />
-            </div>
-            <div className="detalleVistaPrevia">
-                <h2>{producto.name}</h2>
-                <p>Descripcion de producto..
-                </p>
-                <h3>Precio: ${producto.precio}</h3>
-                <Counter />
-            </div> 
-         </div>
-    )
-}
+export default Item
